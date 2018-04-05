@@ -26,12 +26,12 @@
 
     rtm.on ('message', async ({ text }) => {
 
-        text = unescape (text)
+        text = unescape (text).replace (/“|”/g, '"').replace (/‘|’/g, "'")
 
         log ('Received',  cyan (text))
 
         try {
-            const result = stringify (eval ('(async () => (' + text + ')) ()'))
+            const result = stringify (await eval ('(async () => (' + text + ')) ()'))
 
             log ('Result is', magenta (result))
 
