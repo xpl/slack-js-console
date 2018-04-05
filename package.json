@@ -19,6 +19,7 @@
   "homepage": "https://github.com/xpl/slack-js-console#readme",
   "dependencies": {
     "@slack/client": "^4.1.0",
+    "ansicolor": "^1.1.71",
     "ololog": "^1.1.87"
   }
 }
