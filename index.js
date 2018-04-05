@@ -31,7 +31,7 @@
         log ('Received',  cyan (text))
 
         try {
-            const result = stringify (eval ('(() => (' + text + ')) ()'))
+            const result = stringify (eval ('(async () => (' + text + ')) ()'))
 
             log ('Result is', magenta (result))
 
