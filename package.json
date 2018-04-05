@@ -1,0 +1,22 @@
+{
+  "name": "slack-js-console",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter ololog/reporter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xpl/slack-js-console.git"
+  },
+  "author": "Vitaly Gordon <rocket.mind@gmail.com> (http://github.com/xpl)",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/xpl/slack-js-console/issues"
+  },
+  "homepage": "https://github.com/xpl/slack-js-console#readme",
+  "dependencies": {
+    "ololog": "^1.1.87"
+  }
+}
