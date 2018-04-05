@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "mocha --reporter ololog/reporter"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/xpl/slack-js-console#readme",
   "dependencies": {
+    "@slack/client": "^4.1.0",
     "ololog": "^1.1.87"
   }
 }
